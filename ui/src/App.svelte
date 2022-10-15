@@ -2,8 +2,9 @@
   import Feed from "./lib/Feed.svelte";
   import Header from "./lib/Header.svelte";
   import PostPrompt from "./lib/PostPrompt.svelte";
+  import { username } from "./stores/username";
 
-  let timeToPost = true; // SWITCHABLE - based on API results
+  let timeToPost = false; // SWITCHABLE - based on API results
   let posted = false; // SWITCHABLE - based on API results
 </script>
 
